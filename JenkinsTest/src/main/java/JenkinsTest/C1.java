@@ -1,5 +1,7 @@
 package JenkinsTest;
 
+import org.testng.annotations.Test;
+
 public class C1 {
 
 	public static void main(String[] args) {
@@ -9,5 +11,11 @@ public class C1 {
 	public static void Method2()
 	{
 		System.out.println("This is 2nd method ");
+	}
+	
+	@Test
+	public void TesterToTest()
+	{
+		System.out.println("TestNG method executed successfully");
 	}
 }
